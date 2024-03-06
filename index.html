@@ -66,6 +66,10 @@
 
                 <br>
 
+                <small class="text-white-50 text-center">RSS feed by <a href="https://github.com/IceQ1337/CS-RSS-Feed">IceQ1337</a></small>
+
+                <br>
+
                 <div class="text-center">
                     <a href="https://steamcommunity.com/id/thisiselias/" style="padding: 1vw;"><i class="bi bi-steam"></i></a>
                     <a href="https://www.discordapp.com/users/1206382345624617011" style="padding: 1vw;"><i class="bi bi-discord"></i></a>
@@ -224,6 +228,31 @@
         <a href="https://github.com/thisiselias" class="btn btn-primary"><i class="bi bi-github"></i></a>
     </div>
 
+    <br><br>
+
+    <div class="d-flex justify-content-center">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Latest Counter-Strike 2 Updates
+      </button>
+    </div>
+
+<div class="modal fade text-white" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-theme="dark">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal Title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="rss-feed"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     <footer class="bg-dark py-5 mt-5">
         <div class="container text-light text-center">
             <small class="text-white-50">&copy; Elias. F 2024.</small>
@@ -232,5 +261,6 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 </body>
 </html>
