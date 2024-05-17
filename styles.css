@@ -9,11 +9,12 @@
     bottom: 0;
     z-index: -1;
 }
-
 .pfp{
     margin-top: 30vh;
 }
-
 .space{
     margin-top: 5vh;
+}
+.smallspace{
+    margin-top: 1vw;
 }
