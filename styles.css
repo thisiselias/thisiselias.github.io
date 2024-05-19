@@ -12,9 +12,15 @@
 .pfp{
     margin-top: 30vh;
 }
+.bigspace{
+    margin-top: 25vh;
+}
 .space{
     margin-top: 5vh;
 }
 .smallspace{
     margin-top: 1vw;
+}
+.marginleft{
+    margin-left: 1vw;
 }
