@@ -21,19 +21,13 @@
 .mediumspace{
     margin-top: 10vh;
 }
-.spacewidth{
-    margin-top: 5vw;
-}
-.smallspace{
-    margin-top: 1vw;
-}
 .marginleft{
     margin-left: 1vw;
 }
 .zoom {
-    transition: transform .2s; /* Animation */
+    transition: transform .2s;
     margin: 0 auto;
 }
 .zoom:hover {
-    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.1);
 }
