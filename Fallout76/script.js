@@ -36,6 +36,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const video = document.getElementById('background-video');
     const volumeRange = document.getElementById('customRange2');
 
+    video.volume = 0.1;
+    volumeRange.value = 0.1;
+
     volumeRange.addEventListener('input', function() {
       video.volume = parseFloat(this.value);
     });
