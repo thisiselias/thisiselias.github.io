@@ -18,12 +18,6 @@
 .space{
     margin-top: 5vh;
 }
-.mediumspace{
-    margin-top: 10vh;
-}
-.marginleft{
-    margin-left: 1vw;
-}
 .zoom {
     transition: transform .2s;
     margin: 0 auto;
