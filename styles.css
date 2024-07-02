@@ -12,12 +12,6 @@
 .pfp{
     margin-top: 30vh;
 }
-.bigspace{
-    margin-top: 25vh;
-}
-.space{
-    margin-top: 5vh;
-}
 .zoom {
     transition: transform .2s;
     margin: 0 auto;
