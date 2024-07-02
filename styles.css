@@ -9,9 +9,6 @@
     bottom: 0;
     z-index: -1;
 }
-.pfp{
-    margin-top: 30vh;
-}
 .zoom {
     transition: transform .2s;
     margin: 0 auto;
