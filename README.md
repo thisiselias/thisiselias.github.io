@@ -3,9 +3,7 @@ Webpage of mine built on HTML 5, CSS 4.15, and Bootstrap 5.3.3 on GitHub pages. 
 
 Feel free to check it out: [thisiselias.github.io](https://thisiselias.github.io/).
 
-![image](https://github.com/user-attachments/assets/a8773cab-48e5-4355-8e98-031dd7897855)
-
-<br>
+![image](https://github.com/user-attachments/assets/7f365aa8-c31b-4d25-ad42-8ff8b5e8a948)
 
 <table>
   <tr>
