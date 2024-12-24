@@ -23,6 +23,9 @@
 .pfp{
     margin-top: 10vh;
 }
+.bottommargin{
+    margin-bottom: 3vh;
+}
 iframe{
     border-radius: 7.5px;
 }
