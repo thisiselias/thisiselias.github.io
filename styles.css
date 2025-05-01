@@ -15,10 +15,17 @@
 .zoom {
     transition: transform .2s;
     margin: 0 auto;
+    border-radius: 7.5px;
 }
 .zoom:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .pfp{
     margin-top: 10vh;
+}
+.bottommargin{
+    margin-bottom: 3vh;
+}
+iframe{
+    border-radius: 7.5px;
 }
