@@ -65,4 +65,4 @@ function fetchRSSFeed(url, count) {
         .catch(error => console.error("Error fetching RSS feed:", error));
 }
 
-fetchRSSFeed("https://raw.githubusercontent.com/IceQ1337/CS-RSS-Feed/master/feeds/updates-feed-en.xml", 3);
+fetchRSSFeed("https://raw.githubusercontent.com/acefrogge/CS-RSS-Feed/master/feeds/updates-feed-en.xml", 3);
