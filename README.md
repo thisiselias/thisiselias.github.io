@@ -1,5 +1,5 @@
 # thisiselias.github.io
-Webpage of mine built using Bootstrap on GitHub pages. RSS feed by [acefrogge](https://github.com/acefrogge/CS-RSS-FEED).
+Webpage of mine built using Bootstrap on GitHub pages. RSS feed by [IceQ1337](https://github.com/IceQ1337/CS-RSS-Feed).
 
 Feel free to check it out: [thisiselias.github.io](https://thisiselias.github.io/).
 
