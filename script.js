@@ -10,11 +10,6 @@ let scrollY = 0;
 let previousScrollY = 0;
 let scrollVelocity = 0;
 
-
-// =========================
-// SETUP
-// =========================
-
 function resize() {
   dpr = Math.min(window.devicePixelRatio || 1, 2);
 
@@ -32,19 +27,9 @@ function resize() {
   createStars();
 }
 
-
-// =========================
-// RANDOM NUMBER
-// =========================
-
 function random(min, max) {
   return Math.random() * (max - min) + min;
 }
-
-
-// =========================
-// CREATE STARS
-// =========================
 
 function createStars() {
   const density = 0.00018;
@@ -89,28 +74,15 @@ function createStars() {
   }
 }
 
-
-// =========================
-// SCROLL TRACKING
-// =========================
-
 window.addEventListener("scroll", () => {
 
   scrollY = window.scrollY;
 
-  /*
-    Calculate how quickly the user is scrolling.
-  */
   scrollVelocity =
     scrollY - previousScrollY;
 
   previousScrollY = scrollY;
 });
-
-
-// =========================
-// ANIMATION
-// =========================
 
 let time = 0;
 
@@ -128,10 +100,6 @@ function animate() {
 
   for (const star of stars) {
 
-    // =====================
-    // TWINKLE
-    // =====================
-
     const pulse =
       (
         Math.sin(
@@ -145,36 +113,14 @@ function animate() {
       star.opacity *
       (0.35 + pulse * 0.65);
 
-
-    // =====================
-    // NORMAL MOVEMENT
-    // =====================
-
     star.x += star.driftX;
 
     star.y += star.driftY;
-
-
-    // =====================
-    // SCROLL MOVEMENT
-    // =====================
-
-    /*
-      Scrolling pushes the stars.
-
-      The multiplier controls how dramatic
-      the effect is.
-    */
 
     const scrollEffect =
       scrollVelocity * 0.35;
 
     star.y -= scrollEffect;
-
-
-    // =====================
-    // WRAP AROUND SCREEN
-    // =====================
 
     if (star.x < -5) {
       star.x = width + 5;
@@ -192,11 +138,6 @@ function animate() {
       star.y = -5;
     }
 
-
-    // =====================
-    // DRAW STAR
-    // =====================
-
     ctx.beginPath();
 
     ctx.arc(
@@ -211,11 +152,6 @@ function animate() {
       `rgba(255,255,255,${opacity})`;
 
     ctx.fill();
-
-
-    // =====================
-    // STAR GLOW
-    // =====================
 
     if (
       pulse > 0.8 &&
@@ -239,20 +175,10 @@ function animate() {
     }
   }
 
-
-  // Gradually return to normal speed
-  // after the user stops scrolling.
-
   scrollVelocity *= 0.9;
-
 
   requestAnimationFrame(animate);
 }
-
-
-// =========================
-// START
-// =========================
 
 window.addEventListener(
   "resize",
